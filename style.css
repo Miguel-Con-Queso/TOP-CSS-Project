@@ -1,0 +1,74 @@
+* {
+}
+
+body {
+}
+
+.header {
+  background-color: #1f2937;
+}
+
+.header p {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.header-links {
+}
+
+.hero {
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.sign-up {
+  background-color: #3882f6;
+}
+
+.mid {
+}
+
+.mid h2 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+
+.mid-content {
+}
+
+.mid-text-imgs {
+}
+
+.quote {
+  background-color: #e5e7eb;
+}
+
+.quote h3 {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.bot {
+}
+
+.bot-text {
+}
+
+.bot-sign-up {
+}
+
+.feet {
+  background-color: #1f2937;
+}
