@@ -2,27 +2,43 @@
 }
 
 body {
+  margin: 0;
 }
 
 .header {
   background-color: #1f2937;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
 }
 
 .header p {
   font-size: 24px;
   color: #f9faf8;
+  margin-left: 0;
 }
 
 .header-links {
+  font-size: 18px;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: space-around;
+  gap: 16px;
 }
 
 .hero {
+  background-color: #1f2937;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
 }
 
 .hero h1 {
   font-size: 48px;
   font-weight: bolder;
   color: #f9faf8;
+  margin: 0;
 }
 
 .hero p {
@@ -30,11 +46,32 @@ body {
   color: #e5e7eb;
 }
 
+.hero img {
+  max-width: 250px;
+  max-height: 250px;
+  margin-bottom: 32px;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  max-width: 350px;
+}
+
 .sign-up {
   background-color: #3882f6;
+  color: white;
+  margin-bottom: 32px;
+  border-radius: 8px;
+  font-size: 16px;
 }
 
 .mid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .mid h2 {
@@ -44,13 +81,29 @@ body {
 }
 
 .mid-content {
+  display: flex;
+  justify-content: space-around;
+  gap: 8px;
 }
 
 .mid-text-imgs {
+  max-width: 100px;
+  margin: 0 12px;
+  align-items: center;
+  text-align: center;
+}
+
+.mid-text-imgs img {
+  width: 100px;
+  height: 100px;
+  border: #3882f6 solid 4px;
+  border-radius: 8%;
 }
 
 .quote {
   background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
 }
 
 .quote h3 {
@@ -58,17 +111,52 @@ body {
   font-weight: lighter;
   font-style: italic;
   color: #1f2937;
+  padding-left: 25%;
+  padding-right: 25%;
+  margin-bottom: 0;
+}
+
+.quote p {
+  margin-top: 0;
+  font-size: 24px;
+  font-weight: bolder;
+  align-self: flex-end;
+  padding-right: 25%;
 }
 
 .bot {
+  display: flex;
+  background-color: #3882f6;
+  margin: 64px 20%;
+  border-radius: 30px;
+  justify-content: space-around;
+  align-items: center;
+  gap: 16px;
 }
 
 .bot-text {
+  color: white;
+  margin: 5%;
+}
+
+.bot-text h4,
+.bot-text p {
+  margin: 0;
 }
 
 .bot-sign-up {
+  background-color: #3882f6;
+  color: white;
+  margin: 5% 10%;
+  border-color: white;
+  border-radius: 8px;
+  font-size: 16px;
 }
 
 .feet {
   background-color: #1f2937;
+  color: #f9faf8;
+  justify-content: center;
+  text-align: center;
+  padding: 2% 0;
 }
